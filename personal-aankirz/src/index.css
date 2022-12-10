@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@300;400;500;600;700&family=Encode+Sans+Expanded:wght@200;300;500;600;700&family=Martian+Mono:wght@200;300&family=Poppins:wght@400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  font-family: 'Encode Sans Condensed', sans-serif;
+  /* overflow-x: hidden; */
+  /* background-color: #0b1120;
+  color: rgb(255, 255, 255); */
+  
+  /*blur bg img*/
+   
+  /* background-color: whitesmoke; */
+  color: #fff;
+  
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.codeText{
+  color: rgba(200, 127, 182, 0.411);
+  /* color: rgba(241, 120, 213, 0.411); */
+
+  font-family: 'Encode Sans Condensed', sans-serif;
+}

@@ -1,0 +1,38 @@
+.Navbar{
+    position:fixed;
+    top: 1.2vh;
+    left: 5.2vw;
+    
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    z-index: 11;
+    border: 2px solid #e364ff;
+    border-radius: 10px;
+    background: rgba(215, 97, 255, 0.12);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(3.5px);
+-webkit-backdrop-filter: blur(3.5px);
+border: 2px solid rgba(250, 136, 222, 0.411);
+}
+.Navbar ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 1.4vw;
+}
+.Navbar ul li{
+    margin: 0 0.5rem;
+}
+
+.Navbar .logo h1{
+    /* border: 2px solid rgb(143, 139, 139); */
+    word-spacing: 1rem;
+    /* align-self: center;  */
+    font-size: 2vw;
+    /* transform: translateY(-1rem); */
+    
+}

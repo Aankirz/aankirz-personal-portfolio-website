@@ -1,0 +1,58 @@
+/* .sectionAnimation{
+    position: relative;
+    width: 40%;
+    height: 40%;
+} */
+.qualificationContent{
+    position: relative;
+    width: 50%;
+    height: 80vh;
+    margin: 1rem;
+    /* display: flex; */
+    /* display: block; */
+    /* border: 2px solid #fff; */
+    /* background-color: black; */
+}
+
+.qualificationContent button{
+    background-color: black;
+    padding: 1rem;
+    margin: 1rem;
+    /* width: 2vw; */
+    font-weight: 600;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.qualificationContent  .active{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+
+.experienceContent{
+    border-left: 2px solid #fff;
+    
+    padding: 1rem;
+}
+.experience{
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid rgb(131, 120, 120);
+    /* padding: 1rem; */
+    /* border: 2px solid #fff; */
+}
+.experience .experienceImg{
+   height: 5rem;
+   width: 5rem;
+   margin: 1rem;
+}
+.experienceContent .experienceImg img{
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
+}
