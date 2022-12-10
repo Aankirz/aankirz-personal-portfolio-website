@@ -67,6 +67,11 @@
   font-weight: 500;
   font-size: 1rem;
 }
+.sectionButton:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(229, 28, 244);
+  box-shadow: 0 0 10px 0 rgb(255, 255, 255);
+}
 .stars{
   position: absolute;
   /* z-index: ; */

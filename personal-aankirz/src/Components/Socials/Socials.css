@@ -14,11 +14,10 @@
 
 
 .socialEmail{
-    transform: translateX(85rem);
+    transform: translate(85rem,-3rem);
+    
 }
-.socialEmail .vl{
-    /* transform: translateX(.8rem); */
-}
+
 .socialEmail .emailText{
     transform:rotate(90deg);
     margin-left: -6vw;

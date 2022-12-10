@@ -3,11 +3,17 @@ import './Projects.css'
 
 import * as Unicons from '@iconscout/react-unicons';
 
+import project1 from '../../assets/project1.png'
+
 const Projects = () => {
   return (
     <div className="Projects">
       
-        <h1 className='sectionTitle'>Projects</h1>
+        <h1 className='sectionTitle'>
+        <code className='codeText'>
+        {"<Web>"}
+        </code>
+          Projects</h1>
 
        <div className="projectsContainer">
         <div className="projectTechStacks">
@@ -71,11 +77,11 @@ const Projects = () => {
         <div className="projectCards">
           <div className="projectCard">
           <div className="projectImg">
-              
+              <img src={project1} alt="" />
               {/* <img src="https://images.unsplash.com/photo-1617720000000-1c1a1a1a1a1a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" /> */}
           </div>
           <div className="projectLinks">
-              <a href=""><Unicons.UilGithub/></a>
+              <a href="https://codesandbox.io/s/0ksymn" target="_blank"><Unicons.UilGithub/></a>
           </div>
           </div>
           <div className="projectCard">
@@ -94,6 +100,11 @@ const Projects = () => {
            
         </div>
        </div>
+       <h2>
+       <code className='codeText'>
+        {"</Web>"}
+        </code> 
+       </h2>
     </div>
   )
 }

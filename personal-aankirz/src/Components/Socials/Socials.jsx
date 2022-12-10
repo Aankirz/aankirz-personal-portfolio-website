@@ -12,8 +12,7 @@ const Socials = () => {
                     sahuankit453@gmail.com
                 </a>
             </div>
-          <div className="vl">
-          </div>
+          
 
         </div>  
      <div className="socialProfiles">
