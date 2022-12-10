@@ -21,11 +21,22 @@ border: 2px solid rgba(250, 136, 222, 0.411);
 .Navbar ul{
     display: flex;
     align-items: center;
+    /* justify-content: flex-end; */
+    transform: translateX(16rem);
     list-style: none;
     font-size: 1.4vw;
+    font-weight: 500;
+    /* border: 2px solid #fff; */
 }
 .Navbar ul li{
     margin: 0 0.5rem;
+    width: 8rem;
+    text-align: center;
+    /* border: 2px solid #fff; */
+}
+.Navbar ul button{
+
+    /* display: none; */
 }
 
 .Navbar .logo h1{
@@ -35,4 +46,14 @@ border: 2px solid rgba(250, 136, 222, 0.411);
     font-size: 2vw;
     /* transform: translateY(-1rem); */
     
+
 }
+
+.active{
+    color: #bf06fd;
+   
+    padding:0.5rem;
+    /* background-color: #fff; */
+    box-shadow: 0 0 10px 0 rgb(238, 0, 255);
+}
+

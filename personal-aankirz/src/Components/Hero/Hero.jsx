@@ -3,7 +3,7 @@ import './Hero.css'
 
 const Hero = () => {
   return (
-   <div className="Hero">
+   <div className="Hero" id="home">
     <div className="hero-text">
         <code className='codeText'>
         {"<portfolio>"}
@@ -19,7 +19,9 @@ const Hero = () => {
         @Aankirz 
 
         <h2>I'm a <span className="job">Fullstack Developer</span></h2>
-        <p>I'm a Frontend Developer based in India. I love to build things that live on the internet, whether that be websites, applications, or anything in between. My goal is to always build products that provide pixel-perfect, performant experiences.</p>
+        <p>Exploring my interests | NITRkl'25 | Web Developer |React Frontend Dev (Chrome Extensions and Web Apps)| Loves Open source, Hacktoberfest'22 Contributor| Winner of 2 MLH Hackathons | Knows "How to Google"</p>
+        
+        <p>Welcome to my digital garden. 🌱</p>
         <code className='codeText'>
         {"</hello>"}
         </code>
