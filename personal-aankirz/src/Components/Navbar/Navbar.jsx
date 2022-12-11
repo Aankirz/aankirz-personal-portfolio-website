@@ -10,7 +10,15 @@ const Navbar = () => {
             <h1>AK</h1>
         </div>
         <ul>
-            <li><a href="#home">Home</a> </li>
+            <li>
+            <Link
+              activeClass="active"
+              to="home"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+              >Home</Link> </li>
             <li>
             <Link
               activeClass="active"

@@ -48,6 +48,10 @@ const App = () => {
     <Qualification/>
 
 <Contact/>
+
+<h3>"Code,Connect & Collaborate"</h3>
+<br />
+<h4>Made with ❤️ by Aankirz</h4>
    </div>
   )
 }

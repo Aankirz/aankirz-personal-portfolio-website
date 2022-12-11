@@ -3,7 +3,11 @@
     height: 30vh;
     /* background-color: #f5f5f5; */
     position: relative;
-    
+    /* border: 2px solid #fff; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
 
 }
 .userName{
@@ -13,8 +17,8 @@
     
 }
 .userImg{
-    width: 12rem;
-    height: 12rem;
+    width: 15rem;
+    height: 15rem;
     border: 12px solid rgba(186, 1, 242, 0.678);
     border-radius: 100%;
     
@@ -31,6 +35,7 @@
     display: flex;
     /* justify-content: center; */
     align-items: center;
+    font-size: 2rem;
     /* color: black; */
 }
 
@@ -42,5 +47,34 @@
     display: flex;
     align-items: center;
     color: #818a91;
+    font-size: 1.2rem;
 }
-
+.contactMessage{
+    /* border: 2px solid #fff; */
+    width: 35vw;
+    height: 40vh;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.contactMessage h1{
+    font-size: 3.5rem;
+}
+.contactMessage p{
+    font-family: 'Encode Sans Expanded', sans-serif;
+    font-size: .9rem;
+    /* margin-bottom: 2rem; */
+    color: #a8a0aa;
+    margin-top: 2rem;
+    transform: translateY(2rem);
+}
+.contactMessage a{
+    /* display: none; */
+    text-decoration: none;
+    transform: translateY(5rem);
+    
+}
+.contactMessage h1 .codeText{
+    transform: translateY(3rem);
+}

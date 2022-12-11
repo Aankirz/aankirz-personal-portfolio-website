@@ -1,6 +1,10 @@
 import React from 'react'
 import './Qualification.css'
 import experience1 from "../../assets/experience1.png"
+import experience2 from "../../assets/experience2.png"
+import education1  from "../../assets/education1.png"
+import education2  from "../../assets/education2.png"
+
 
 const Qualification = () => {
   
@@ -31,10 +35,19 @@ const Qualification = () => {
 
         <div className="qualificationContent">
 
-           <button className='active' onClick={()=>toggleHandler(2)}>Experience</button>
-           <button>Education</button>  
+           <button className={toggle===1?"active":null}
+           
+            onClick={()=>toggleHandler(1)}>
+            Experience
+            
+            </button>
+           <button className={toggle===2?"active":null}
+           
+           onClick={()=>toggleHandler(2)}
+           
+           >Education</button>  
 
-           <div className='experienceContent'>
+           <div className='experienceContent' style={toggle ===2 ? {display:"none"}:{} }>
 
               <div className='experience'>
                 <div className='experienceImg'>
@@ -47,8 +60,45 @@ const Qualification = () => {
                 </div>
                 
               </div>
+              <div className='experience'>
+                <div className='experienceImg'>
+                <img src={experience2} alt="" />
+                </div>
+                <div>
+                    <h3>Web Developer</h3>
+                    <p>Webwiz | FullTime</p>
+                    <p>November 2022 - Present</p>
+                </div>
+                
+              </div>
+            
 
            </div>
+           <div className="educationContent" style={toggle ===1 ? {display:"none"}:{} } >
+              <div className="education">
+                <div className="educationImg">
+                <img src={education1} alt="" />
+                </div>
+                <div>
+                  
+                    <h3>NIT Rourkela</h3>
+                    <p>B.Tech </p>
+                    <p>December 2021 - Jul 2025</p>
+                </div>     
+              </div>
+
+              <div className="education">
+                <div className="educationImg">
+                <img src={education2} alt="" />
+                </div>
+                <div>
+                  
+                    <h3>Army Public School Gopalpur</h3>
+                    <p>10th - 12th</p>
+                    <p>June 2018 - Mar 2020</p>
+                </div>     
+              </div>
+            </div>  
         </div>
     </div>
     
